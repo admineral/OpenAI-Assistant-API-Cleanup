@@ -1,6 +1,23 @@
-# OpenAI-Assistant-API-Cleanup
+
+# OpenAI-Cleanup-Scripts
+
+This repository contains Python scripts for efficient bulk deletion of OpenAI assistants and files. It's a handy tool for OpenAI resource management and cleanup.
+
+## Scripts
+
+1. `delete_assistants.py`: This script deletes OpenAI assistants. It fetches a list of all assistants, displays them, and asks for user confirmation before deletion. If confirmed, the assistants are deleted in parallel using multithreading.
+
+2. `delete_files.py`: This script deletes OpenAI files. It fetches a list of all files, displays them, and asks for user confirmation before deletion. If confirmed, the files are deleted in parallel using multithreading.
+
+## Usage
+
+1. Set your OpenAI API key in a `.env` file or as an environment variable named `OPENAI_API_KEY`.
+
+2. Run the scripts using Python 3:
+
+3. python delete_assistants.py
+   
+4. python delete_files.py
 
 
-
-
-This repository contains Python scripts for bulk deletion of OpenAI assistants and files. The scripts fetch a list of all assistants or files, display them, and ask for user confirmation before deletion. If confirmed, the resources are deleted in parallel using multithreading for efficiency. The scripts also provide an option to delete all resources in a loop until there are none left. These scripts are useful for managing and cleaning up resources in an OpenAI environment.
+# Please use these scripts responsibly as they can delete all your OpenAI assistants or files.
