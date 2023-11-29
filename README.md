@@ -15,9 +15,9 @@ This repository contains Python scripts for efficient bulk deletion of OpenAI as
 
 2. Run the scripts using Python 3:
 
-3. python delete_assistants.py
+3. `python3 delete_assistants.py`
    
-4. python delete_files.py
+4. `python3 delete_files.py`
 
 
 # Please use these scripts responsibly as they can delete all your OpenAI assistants or files.
